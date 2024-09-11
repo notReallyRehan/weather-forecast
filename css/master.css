@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://cdn3.vectorstock.com/i/1000x1000/10/87/weather-forecast-vector-11181087.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.forecast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.day {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 180px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+.day h3 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+}
+.day img {
+    width: 60px;
+    height: 60px;
+}
+.day p {
+    margin: 5px 0;
+}
+.btn-group {
+    margin: 20px 0;
+}
+select, button {
+    margin-bottom: 15px;
+}
